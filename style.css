@@ -27,12 +27,8 @@ footer
   color:red;
   text-align:center;
 }
- img 
+nav ul 
 {
-align-content:center;
-
-}
-nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -41,23 +37,27 @@ nav ul {
   padding: 10px;
 }
 
-nav ul li {
+nav  li 
+{
   margin: 0 15px;
 }
 
-nav ul li a {
+nav  a 
+{
   text-decoration: none;
   color: #fff;
   font-weight: bold;
   transition: color 0.3s, border-bottom 0.3s;
 }
 
-nav ul li a:hover {
+nav ul li a:hover 
+{
   color: #ff9800;
   border-bottom: 2px solid #ff9800;
 }
 
-section {
+section 
+{
   text-align: center;
   margin: 20px;
 }
@@ -99,3 +99,4 @@ padding: 10px;
 margin: 0px;
 }
 }
+
